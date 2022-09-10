@@ -823,6 +823,7 @@ body {
 .modal-form-check {
     position: absolute;
     appearance: none;
+    text-decoration-color: #188CE8;
 }
 
 .modal-form-agreement {
@@ -879,6 +880,7 @@ body {
     letter-spacing: 0.06em;
     border-radius: 4px;
     text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transition: color var(--time-bezier), background-color var(--time-bezier);
 }
 .modal-form-submit:hover,
@@ -912,6 +914,9 @@ body {
 .user-mail-input {
     width: 358px;
     height: 50px;
+    color: var(--main-page);
+    font-size: 16px;
+    line-height: 1.25;
     padding-left: 16px;
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.3);
